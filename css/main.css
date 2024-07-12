@@ -206,7 +206,7 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24rem;
+    gap: 12rem;
     border: 0.2rem solid;
     border-radius: 6.4rem;
     border-color: var(--black);
@@ -400,4 +400,239 @@ header nav ul li a:hover {
 
 .s-events-month .card:hover {
     background-color: var(--primary-color);
+}
+
+.s-coffee {
+    background-color: var(--white);
+    padding-top: 12.4rem;
+    padding-bottom: 4rem;
+}
+
+.s-coffee .menu-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-coffee .menu-wrap h1 {
+    margin-bottom: 6rem;
+
+}
+
+.s-coffee .menu-top {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.s-coffee .menu-top img{
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.s-coffee .menu-bottom .top-wrap{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.2rem;
+    
+}
+
+.s-coffee .menu-bottom .bottom-wrap{
+    gap: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.s-coffee .menu-bottom .option{
+    width: 100%;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 16rem;
+    border: 0.2rem solid;
+    border-radius: 1.6rem;
+    border-color: var(--black);
+    margin-bottom: 3.2rem;
+}
+/* specialty section*/
+
+.s-specialty {
+    background-color: var(--white);
+    padding-top: 12.4rem;
+    padding-bottom: 4rem;
+}
+
+.s-specialty .menu-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-specialty .menu-wrap h1 {
+    margin-bottom: 6rem;
+
+}
+
+.s-specialty .menu-top {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.s-specialty .menu-top img{
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.s-specialty .menu-bottom .top-wrap{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.2rem;
+    
+}
+
+.s-specialty .menu-bottom .bottom-wrap{
+    gap: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.s-specialty .menu-bottom .option{
+
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 16rem;
+    border: 0.2rem solid;
+    border-radius: 1.6rem;
+    border-color: var(--black);
+    margin-bottom: 3.2rem;
+}
+/* boba section*/
+
+.s-boba {
+    background-color: var(--white);
+    padding-top: 12.4rem;
+    padding-bottom: 4rem;
+}
+
+.s-boba .menu-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-boba .menu-wrap h1 {
+    margin-bottom: 6rem;
+
+}
+
+.s-boba .menu-top {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.s-boba .menu-top img{
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.s-boba .menu-bottom .top-wrap{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.2rem;
+    
+}
+
+.s-boba .menu-bottom .bottom-wrap{
+    gap: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.s-boba .menu-bottom .option{
+
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 16rem;
+    border: 0.2rem solid;
+    border-radius: 1.6rem;
+    border-color: var(--black);
+    margin-bottom: 3.2rem;
+}
+
+/* sandwiches */
+.s-sand {
+    background-color: var(--white);
+    padding-top: 12.4rem;
+    padding-bottom: 8rem;
+}
+
+.s-sand .menu-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-sand .menu-wrap h1 {
+    margin-bottom: 6rem;
+
+}
+
+.s-sand .menu-top {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.s-sand .menu-top img{
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.s-sand .menu-bottom .top-wrap{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.2rem;
+    
+}
+
+.s-sand .menu-bottom .bottom-wrap{
+    gap: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.s-sand .menu-bottom .option{
+
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 16rem;
+    border: 0.2rem solid;
+    border-radius: 1.6rem;
+    border-color: var(--black);
+    margin-bottom: 3.2rem;
 }
