@@ -278,5 +278,38 @@ header nav ul li a:hover {
     bottom: 0px;
     right: 0px;
     max-width: 18rem;
+}
 
+.s-about {
+    padding-top: 12.4rem;
+    padding-bottom: 8rem;
+    background-color: var(--white);
+}
+
+.s-about .about-wrapper {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.4rem;
+}
+.s-about .about-wrapper .image-about img{
+    border: 0.2rem solid;
+    border-radius: 6.4rem;
+    border-color: var(--black);
+    max-width: 100%;
+}
+
+.s-about .content-about {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8.6rem;
+    max-width: 50%;
+}
+.s-about .content-about .content-top h1 {
+    margin-bottom: 2.4rem;
+}
+.s-about .content-bottom .btn-primary{
+    margin-top: 2.4rem;
 }
