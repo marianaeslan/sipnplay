@@ -101,6 +101,7 @@ header nav ul li a:hover {
 }
 
 .s-events .title-events p {
+    margin-top: 2.4rem;
     max-width: 56rem;
 }
 
@@ -156,4 +157,79 @@ header nav ul li a:hover {
 
 .s-events .card p {
     color: var(--gray-200);
+}
+
+.s-menu {
+    background-color: var(--white);
+}
+
+.s-menu .container {
+    padding-top: 12.4rem;
+    padding-bottom: 8rem;
+}
+
+.s-menu .top-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-menu .top-title p {
+    max-width: 56rem;
+    margin-top: 2.4rem;
+}
+
+.s-menu .content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-menu .content-box {
+    margin-top: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24rem;
+    border: 0.2rem solid;
+    border-radius: 6.4rem;
+    border-color: var(--black);
+    padding: 10.5rem 8.4rem;
+    max-width: 107.8rem;
+}
+
+.s-menu .tag-box {
+    border: 0.2rem solid;
+    border-radius: 2.4rem;
+    border-color: var(--black);
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    max-width: 14.4rem;
+    margin-bottom: 2.4rem;
+}
+.s-menu .tag-box .tag {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--black);
+    margin-left: 0.4rem;
+}
+
+.s-menu .p-tag{
+    margin-bottom: 4.8rem;
+    margin-top: 2.4rem;
+}
+
+.s-menu .tag-box img{
+    margin-left: 0.4rem;
+    max-width: 2.4rem;
+}
+
+.s-menu .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
 }
