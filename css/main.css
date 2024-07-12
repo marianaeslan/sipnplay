@@ -233,3 +233,50 @@ header nav ul li a:hover {
     text-align: left;
     justify-content: space-between;
 }
+
+
+.s-contact .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.s-contact .info {
+    padding-top: 10.9rem;
+    padding-bottom: 10.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.8rem;
+}
+
+.s-contact .info a{
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.s-contact .info p{
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.s-contact .social {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-contact .puzzle img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    max-width: 18rem;
+
+}
