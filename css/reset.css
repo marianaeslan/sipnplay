@@ -11,6 +11,10 @@ img {
     display: block;
 }
 
+p{
+    color: var(--gray-100);
+}
+
 a {
     display: inline-block;
     text-decoration: none;
