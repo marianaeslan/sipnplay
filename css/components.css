@@ -1,0 +1,63 @@
+.btn-primary {
+    border: 0.2rem solid;
+    border-color: var(--black);
+    border-radius: 0.8rem;
+    padding: 1.6rem 2.4rem;
+    background-color: var(--primary-color);
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 100%;
+    transition: background-color .3s ease;
+    
+}
+.btn-primary:hover {
+    background-color: transparent;
+    
+}
+
+.ghost {
+    border: 0.2rem solid;
+    border-color: var(--secondary-color);
+    border-radius: 0.8rem;
+    padding: 1.6rem 2.4rem;
+    background-color: transparent;
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 100%;
+    transition: background-color .3s ease;
+}
+.ghost:hover {
+    background-color: var(--secondary-color);
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.8rem;
+    border: 0.2rem solid;
+    border-color: var(--black);
+    border-radius: 0.8rem;
+    padding: 1.6rem 2.4rem;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 100%;
+    transition: all .3s ease;
+}
+
+.calendar img {
+    padding: 0.4rem;
+    border-radius: 100%;
+}
+
+.calendar:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
